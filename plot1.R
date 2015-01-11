@@ -1,6 +1,6 @@
 ## Checking current working directory
 if (!"loadData.R" %in% list.files()) {
-  setwd("~/Desktop/ExploratoryDataAnalysis/Assignment1/")
+  setwd("~/Desktop/ExploratoryDataAnalysis/Assignment1/ExData_Plotting1/")
 } 
 source("loadData.R")
 png(filename = "plot1.png", 
